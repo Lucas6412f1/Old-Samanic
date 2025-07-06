@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Old-Samanic Language</title>
+    <title>Learn Old-Samanic</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
       <div class="title">
-        <h1>Old-Samanic</h1>
+        <h1>Learn Old-Samanic</h1>
       </div>
       <nav>
         <ul class="main-nav">
@@ -21,15 +21,20 @@
         </ul>
       </nav>
       <div class="content">
-        <section>
-          <h2>About the Language</h2>
-          <p>Old-Samanic is a constructed language (conlang) with a unique script and rich grammar. The language is designed for creative, educational, and fictional purposes.</p>
+        <section id="duolingo-section">
+          <h2>Duolingo-style Practice</h2>
+          <div id="quiz">
+            <p id="question">Translate to Old-Samanic: <b>Hello</b></p>
+            <input type="text" id="answer" placeholder="Your answer...">
+            <button onclick="checkAnswer()">Check</button>
+            <p id="feedback"></p>
+          </div>
         </section>
       </div>
       <div class="footer">
         <p>Copyright © 2025 Lucas6412f1 & Jelle Dane</p>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.ts"></script>
   </body>
 </html>
